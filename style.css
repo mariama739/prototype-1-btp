@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+.collapse{
+    margin-left: 15%;
+}
+.navbar-nav>a{
+    color: black;
+    margin-left: 20px;
+}
+.card-body{
+    background: linear-gradient(90deg, #1e6861, #1ea396);
+    box-shadow: 1px 1px 2px 2px rgb(153, 151, 151);
+    border-radius: 10px;
+}
+.card-text{
+    padding: 60px;
+    color: white;
+}
+.im-orange>.im{
+    margin-left: 16%;
+}
+.bout{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+.pp{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.card-body2{
+    /* height: 500px; */
+    border: 1px solid #1e6861;
+    border-radius: 20px;
+}
+.center{
+    margin-left: 40%;
+}
+.rouge{
+    border: 1px solid red;
+}
+.vert{
+    border: 1px solid #1e6861;
+}
+.orange{
+    border: 1px solid orange;
+}
+.Diplome{
+    background-color: #f44336;
+}
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+}
+.deux{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.deux>img{
+    height: 40px;
+}
+.cente{
+    margin-left: 50%;
+}
+.lorem{
+    font-size: 13px;
+}
+.point{
+    width: 15px;
+    height:15px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.trois{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+.activite{
+    background-color: #f44336;
+}
+svg{
+    width: 100%;
+}
+.partenaire{
+    background-color: #f0f9f8;
+}
+.shadow>img{
+    width: 100%;
+}
+.vide{
+    height: 125px;
+}
+.footer{
+    background-color: #1ea396;
+    color: white;
+}
+@media(max-width:700px){
+    .im-orange>.im {
+        margin-left: 0;
+        width: 90%;
+    }
+    .rectangle{
+        display: none;
+    }
+    .colom{
+        display: flex;
+        flex-direction: column;
+    }
+}
